@@ -66,6 +66,11 @@ h1 {
   }
 }
 
+.page-title h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
 h2 {
   color: rgb(52, 58, 93);
   font-family: 'Roboto', sans-serif;
@@ -348,6 +353,51 @@ p {
   transition: background-color 0.5s ease;
 }
 
+.btn-center {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.btn-sec {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 16px 40px;
+  border-radius: 4px;
+  font-weight: 400;
+  background-color: rgb(224,41,86);
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.btn-sec:hover {
+  color: white;
+  background-color: rgb(52, 58, 93);
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+
+.btn-back {
+  color: rgb(52, 58, 93);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 16px 40px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.btn-back:hover {
+  color: rgba(52, 58, 93, 0.7);
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+
 /*skills section*/
 
 .bg-light-blue {
@@ -455,3 +505,78 @@ p {
 hr {
   color: rgb(52, 58, 93);
 }
+
+.tools {
+  padding-bottom: 16px;
+}
+.tools-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.features li {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.tools-list li {
+  list-style: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.tool {
+  padding: 8px 16px;
+  box-shadow: 2px 4px 4px 2px rgba(72,72,72,.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.features i {
+  padding-right: 24px;
+  color: rgb(224,41,86);
+}
+
+.feature-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project h2, .features h2, .tools h2 {
+  margin-top: 16px;
+}
+
+.js {
+  background-color: #EFD81A;
+  opacity: 0.9;
+}
+
+.ror {
+  background-color: #C60302;
+  opacity: 0.9;
+}
+
+.html {
+  background-color: #E64C20;
+  opacity: 0.9;
+}
+
+.css {
+  background-color: #274DE4;
+  opacity: 0.9;
+}
+
+.btsp {
+  background-color: #563E7C;
+  opacity: 0.9;
+}
+
