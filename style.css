@@ -367,7 +367,7 @@ p {
   line-height: 1.5;
   padding: 16px 40px;
   border-radius: 4px;
-  font-weight: 400;
+  font-weight: 500;
   background-color: rgb(224,41,86);
   text-decoration: none;
   margin-top: 16px;
@@ -387,7 +387,7 @@ p {
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 16px 40px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   margin-top: 16px;
 }
@@ -528,7 +528,7 @@ hr {
   list-style: none;
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 1px;
 }
@@ -543,6 +543,10 @@ hr {
 .features i {
   padding-right: 24px;
   color: rgb(224,41,86);
+}
+
+.features-list {
+  margin: 16px;
 }
 
 .feature-section {
@@ -575,8 +579,32 @@ hr {
   opacity: 0.9;
 }
 
+.scss {
+  background-color: #CD679A;
+  opacity: 0.9;
+}
+
 .btsp {
   background-color: #563E7C;
   opacity: 0.9;
+}
+
+.heroku {
+  background-color: #3F0194;
+  opacity: 0.9;
+}
+
+span {
+  font-style: italic;
+  color: rgb(224,41,86);
+}
+
+.nb {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
