@@ -559,6 +559,10 @@ hr {
   margin-top: 16px;
 }
 
+.project {
+  margin: 16px;
+}
+
 .js {
   background-color: #EFD81A;
   opacity: 0.9;
