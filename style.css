@@ -338,6 +338,27 @@ h1, h2, h3, h4, h5, p, li, a {
     border-radius: 50%;
   }
 
+  /*Introduction Section*/
+
+  .intro-div {
+    margin: 16px 0;
+    text-align: justify;
+  }
+
+  .intro-div ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-div li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2em;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
  /* Services Section*/
 
  .services-cards {
