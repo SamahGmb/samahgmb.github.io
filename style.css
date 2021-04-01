@@ -44,6 +44,11 @@ h1, h2, h3, h4, h5, p, li, a {
     margin: 0 auto;
   }
 
+  .wrapper-section-600-margin {
+    width: 600px;
+    margin: 0 auto;
+  }
+
 /*Styles*/
 
   h1, h2, h3, h4, h5 {
@@ -532,6 +537,43 @@ h1, h2, h3, h4, h5, p, li, a {
   .project-img img {
     width: 80%;
     border-radius: 16px 0 16px 0;
+  }
+
+/*Quote Section*/
+
+  .quotes i {
+   font-size: 60px;
+   padding: 16px;
+   color: rgba(224, 41, 86, 0.3);
+  }
+
+  .quotes-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .quotes-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .quote-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote-text p {
+    font-size: 24px;
+  }
+
+  .quote-author {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .quote-author p {
+    font-weight: bold;
   }
 
 /* Cta Section */
