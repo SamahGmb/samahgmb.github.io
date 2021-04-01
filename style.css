@@ -180,12 +180,12 @@ h1, h2, h3, h4, h5, p, li, a {
     background-color: rgba(78, 202, 90, 0.1);
   }
 
-  .card-brown-bg {
-    background: linear-gradient(rgba(99, 65, 50, 0.05), rgba(99, 65, 50, 0.1), rgba(99, 65, 50, 0.1), rgba(99, 65, 50, 0.2), rgba(99, 65, 50, 0.3));
+  .card-green-bg {
+    background: linear-gradient(rgba(106, 250, 0, 0.05), rgba(106, 250, 0, 0.1), rgba(106, 250, 0, 0.15), rgba(106, 250, 0, 0.2), rgba(106, 250, 0, 0.25), rgba(106, 250, 0, 0.3));
   }
 
   .card-dark-blue-bg {
-    background: linear-gradient(rgba(0, 37, 74, 0.05), rgba(0, 37, 74, 0.1), rgba(0, 37, 74, 0.1), rgba(0, 37, 74, 0.2), rgba(0, 37, 74, 0.3));
+    background: linear-gradient(rgba(0, 37, 74, 0.03), rgba(0, 37, 74, 0.05), rgba(0, 37, 74, 0.10), rgba(0, 37, 74, 0.15), rgba(0, 37, 74, 0.18));
   }
 
   .service-bg-beige {
@@ -508,18 +508,30 @@ h1, h2, h3, h4, h5, p, li, a {
     width: 650px;
     border-radius: 16px;
     margin: 32px 0;
-    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .project-title-stack {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
+    padding: 32px;
   }
 
   .project-stack p {
     color: rgba(0, 0, 0, 0.4);
+  }
+
+  .project-img {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .project-img img {
+    width: 80%;
+    border-radius: 16px 0 16px 0;
   }
 
 /* Cta Section */
