@@ -29,11 +29,6 @@ h1, h2, h3, h4, h5, p, li, a {
     margin: 100px auto;
   }
 
-/*  .wrapper-section-1000-no-margin {
-    width: 1000px;
-    margin: 0 0 0 250px;
-  }
-*/
   .wrapper-section-900-margin {
     width: 900px;
     margin: 100px auto;
@@ -186,11 +181,11 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   .card-green-bg {
-    background: linear-gradient(rgba(106, 250, 0, 0.05), rgba(106, 250, 0, 0.1), rgba(106, 250, 0, 0.15), rgba(106, 250, 0, 0.2), rgba(106, 250, 0, 0.25), rgba(106, 250, 0, 0.3));
+    background: linear-gradient(rgba(106, 250, 0, 0.05), rgba(106, 250, 0, 0.1), rgba(106, 250, 0, 0.15), rgba(106, 250, 0, 0.2), rgba(106, 250, 0, 0.25), rgba(106, 250, 0, 0.3), rgb(255, 255, 255));
   }
 
   .card-dark-blue-bg {
-    background: linear-gradient(rgba(0, 37, 74, 0.03), rgba(0, 37, 74, 0.05), rgba(0, 37, 74, 0.10), rgba(0, 37, 74, 0.15), rgba(0, 37, 74, 0.18));
+    background: linear-gradient(rgba(0, 37, 74, 0.03), rgba(0, 37, 74, 0.05), rgba(0, 37, 74, 0.10), rgba(0, 37, 74, 0.15), rgba(0, 37, 74, 0.18), rgb(255, 255, 255));
   }
 
   .service-bg-beige {
@@ -529,14 +524,22 @@ h1, h2, h3, h4, h5, p, li, a {
     color: rgba(0, 0, 0, 0.4);
   }
 
-  .project-img {
+  .project-img img {
+    width: 80%;
+    border-radius: 0 16px 0 16px;
+  }
+
+  .see-more-projects {
     display: flex;
     justify-content: flex-end;
   }
 
-  .project-img img {
-    width: 80%;
-    border-radius: 16px 0 16px 0;
+  .see-more-projects p {
+    font-weight: bold;
+  }
+
+  .see-more-projects a:hover {
+    text-decoration: underline;
   }
 
 /*Quote Section*/
@@ -729,3 +732,35 @@ h1, h2, h3, h4, h5, p, li, a {
       background: rgba(224, 41, 86, 0.8);
       transform: scale(1.1, 1.1);
     }
+
+/* Portfolio Section*/
+
+  .project-description ul {
+   display: flex;
+   flex-direction: column;
+  }
+
+  .project-description h4 {
+    padding: 16px;
+  }
+
+  .project-description li {
+   line-height: 2em;
+   color: rgba(0, 0, 0, 0.7);
+   font-size: 15px;
+   font-weight: 400;
+   text-transform: none;
+  }
+
+  .message p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .back-to-home-page p {
+    font-weight: bold;
+  }
+
+  .back-to-home-page a:hover {
+    text-decoration: underline;
+  }
