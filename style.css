@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, p, li, a {
     text-transform: capitalize;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    h1 {
     font-size: 40px;
     }
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, p, li, a {
     padding: 24px 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    h2 {
     font-size: 32px;
     text-align: center;
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, p, li, a {
     text-transform: capitalize;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    h3 {
     font-size: 18px;
     }
@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, p, li, a {
     text-align: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    h4 {
     font-size: 16px;
     }
@@ -424,8 +424,22 @@ h1, h2, h3, h4, h5, p, li, a {
     background: linear-gradient(rgba(255,192,203, 0.1), rgba(255,192,203, 0.1), rgba(255,192,203, 0.2), rgba(255,192,203, 0.3));
   }
 
+  @media (max-width: 576px) {
+   .first-footer {
+    flex-wrap: wrap;
+    padding: 16px;
+    justify-content: center;
+    }
+  }
+
   .a-propos {
     padding-right: 32px;
+  }
+
+  @media (max-width: 576px) {
+   .a-propos {
+    padding-right: 0
+    }
   }
 
   .second-footer {
@@ -434,12 +448,14 @@ h1, h2, h3, h4, h5, p, li, a {
     align-items: center;
   }
 
-  .footer-logo img {
-    height: 150px;
+  @media (max-width: 576px) {
+   .second-footer {
+    flex-direction: column;
+    }
   }
 
-  .footer-copyright {
-    text-transform: uppercase;
+  .footer-logo img {
+    height: 150px;
   }
 
   .second-footer p {
@@ -447,9 +463,21 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   @media (max-width: 576px) {
-    .footer {
-      display: none;
+    .second-footer p{
+      text-align: center;
+      font-weight: 8px;
+      padding: 0 32px;
     }
+  }
+
+  .footer-coded-by, .footer-copyright {
+    margin: 8px 0;
+  }
+
+  hr {
+    margin: 16px;
+    width: 80%;
+    margin: 16px auto;
   }
 
 /*Banner*/
@@ -711,7 +739,7 @@ h1, h2, h3, h4, h5, p, li, a {
     margin: 40px 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .tools-cards {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -729,7 +757,7 @@ h1, h2, h3, h4, h5, p, li, a {
     border-radius: 16px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .tool-card {
     width: auto;
     margin: 0;
@@ -754,7 +782,7 @@ h1, h2, h3, h4, h5, p, li, a {
     grid-gap: 8px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .tools-statistics {
     grid-template-columns: repeat(1, 1fr);
     }
@@ -765,7 +793,7 @@ h1, h2, h3, h4, h5, p, li, a {
     align-items: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .statistic-details p {
     width: 25%;
     }
@@ -777,7 +805,7 @@ h1, h2, h3, h4, h5, p, li, a {
     color: rgba(0, 0, 0, 0.9);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .statistic-details > p {
     font-size: 48px;
     }
@@ -803,7 +831,7 @@ h1, h2, h3, h4, h5, p, li, a {
     margin: 40px 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .projects-cards {
     grid-template-columns: repeat(1, 1fr);
     margin: 0;
@@ -820,7 +848,7 @@ h1, h2, h3, h4, h5, p, li, a {
     justify-content: space-between;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .project-card {
     width: 300px;
     height: 300px;
@@ -834,7 +862,7 @@ h1, h2, h3, h4, h5, p, li, a {
     padding: 32px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .project-title-stack {
     padding: 16px;
     }
@@ -849,7 +877,7 @@ h1, h2, h3, h4, h5, p, li, a {
     color: rgba(0, 0, 0, 0.4);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .project-stack p {
     font-size: 12px;
     }
@@ -860,7 +888,7 @@ h1, h2, h3, h4, h5, p, li, a {
     border-radius: 0 16px 0 16px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .project-img img {
     width: 80%;
     }
@@ -888,7 +916,7 @@ h1, h2, h3, h4, h5, p, li, a {
    color: rgba(224, 41, 86, 0.3);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .quotes i {
     font-size: 40px;
     }
@@ -914,7 +942,7 @@ h1, h2, h3, h4, h5, p, li, a {
     font-size: 24px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .quote-text p {
     font-size: 16px;
     }
@@ -942,7 +970,7 @@ h1, h2, h3, h4, h5, p, li, a {
     background: linear-gradient(rgba(255,192,203, 0.1), rgba(255,192,203, 0.1), rgba(255,192,203, 0.2), rgba(255,192,203, 0.3));
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .cta-card {
     flex-wrap: wrap;
     padding: 16px;
@@ -1099,7 +1127,7 @@ h1, h2, h3, h4, h5, p, li, a {
       width: 200px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 576px) {
      .btn-big {
       width: auto;
       padding: 16px 32px;
@@ -1111,7 +1139,7 @@ h1, h2, h3, h4, h5, p, li, a {
       font-size: 15px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 576px) {
      .btn-big a {
       font-size: 13px;
       }
