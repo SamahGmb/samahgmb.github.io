@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 576px) {
     .wrapper-section-1400-margin {
       width: 300px;
+      margin: 50px auto;
     }
   }
 
@@ -104,6 +105,7 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 576px) {
     .wrapper-section-900-margin {
       width: 300px;
+      margin: 50px auto;
     }
   }
 
@@ -133,6 +135,7 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 576px) {
     .wrapper-section-900-no-margin {
       width: 300px;
+      margin: 50px auto;
     }
   }
 
@@ -162,6 +165,7 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 576px) {
     .wrapper-section-600-margin {
       width: 300px;
+      margin: 50px auto;
     }
   }
 
@@ -205,11 +209,24 @@ h1, h2, h3, h4, h5, p, li, a {
     text-transform: capitalize;
   }
 
+  @media (max-width: 768px) {
+   h1 {
+    font-size: 40px;
+    }
+  }
+
   h2 {
     font-weight: 500;
     font-size: 40px;
     text-transform: capitalize;
     padding: 24px 0;
+  }
+
+  @media (max-width: 768px) {
+   h2 {
+    font-size: 32px;
+    text-align: center;
+    }
   }
 
   h3 {
@@ -220,7 +237,7 @@ h1, h2, h3, h4, h5, p, li, a {
 
   @media (max-width: 768px) {
    h3 {
-    font-size: 16px;
+    font-size: 18px;
     }
   }
 
@@ -229,6 +246,12 @@ h1, h2, h3, h4, h5, p, li, a {
     font-size: 24px;
     text-transform: capitalize;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+   h4 {
+    font-size: 16px;
+    }
   }
 
   h5 {
@@ -240,7 +263,7 @@ h1, h2, h3, h4, h5, p, li, a {
 
   p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 2em;
     letter-spacing: 0.02em;
     text-align: justify;
@@ -493,6 +516,15 @@ h1, h2, h3, h4, h5, p, li, a {
     .banner-text {
       height: 100%;
       width: 100%;
+      padding: 0;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .banner-title, .banner-subtitle, .banner-description, .banner-btn {
+      margin: 16px 0;
+      text-align: center;
     }
   }
 
@@ -568,6 +600,12 @@ h1, h2, h3, h4, h5, p, li, a {
    }
  }
 
+ @media (max-width: 576px) {
+   .f-wrap-reverse {
+     flex-wrap: wrap-reverse;
+   }
+ }
+
  .service-infos, .service-checklist {
   padding: 48px;
   width: 100%;
@@ -576,6 +614,14 @@ h1, h2, h3, h4, h5, p, li, a {
  @media (max-width: 576px) {
    .service-infos, .service-checklist {
      padding: 8px;
+   }
+ }
+
+ @media (max-width: 576px) {
+   .service-infos {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
    }
  }
 
@@ -593,6 +639,12 @@ h1, h2, h3, h4, h5, p, li, a {
   color: rgba(0, 0, 0, 0.8);
  }
 
+ @media (max-width: 576px) {
+   .service-infos h3, .service-infos p {
+     text-align: center;
+   }
+ }
+
  .service-checklist ul {
   display: flex;
   flex-direction: column;
@@ -604,6 +656,12 @@ h1, h2, h3, h4, h5, p, li, a {
   font-size: 16px;
   font-weight: 400;
   text-transform: none;
+ }
+
+ @media (max-width: 576px) {
+   .service-checklist li {
+     padding: 0;
+   }
  }
 
  /*Reasons Section*/
@@ -630,6 +688,7 @@ h1, h2, h3, h4, h5, p, li, a {
  @media (max-width: 576px) {
    .reason {
      width:100%;
+     margin: 16px 0;
    }
  }
 
@@ -673,6 +732,7 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 768px) {
    .tool-card {
     width: auto;
+    margin: 0;
     }
   }
 
@@ -691,7 +751,7 @@ h1, h2, h3, h4, h5, p, li, a {
   .tools-statistics {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
+    grid-gap: 8px;
   }
 
   @media (max-width: 768px) {
@@ -705,10 +765,22 @@ h1, h2, h3, h4, h5, p, li, a {
     align-items: center;
   }
 
+  @media (max-width: 768px) {
+   .statistic-details p {
+    width: 25%;
+    }
+  }
+
   .statistic-details > p {
     font-weight: 500;
     font-size: 64px;
     color: rgba(0, 0, 0, 0.9);
+  }
+
+  @media (max-width: 768px) {
+   .statistic-details > p {
+    font-size: 48px;
+    }
   }
 
   .statistic-infos {
@@ -719,6 +791,7 @@ h1, h2, h3, h4, h5, p, li, a {
 
   .statistic-infos p {
     line-height: 1.5em;
+    width: 100%;
   }
 
 /*Latest Projects Section*/
@@ -733,6 +806,7 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 768px) {
    .projects-cards {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0;
     }
   }
 
@@ -762,8 +836,13 @@ h1, h2, h3, h4, h5, p, li, a {
 
   @media (max-width: 768px) {
    .project-title-stack {
-    padding: 8px;
+    padding: 16px;
     }
+  }
+
+  .project-title, .project-stack {
+    width: 50%;
+    padding: 0 8px;
   }
 
   .project-stack p {
@@ -783,7 +862,6 @@ h1, h2, h3, h4, h5, p, li, a {
 
   @media (max-width: 768px) {
    .project-img img {
-    height: auto;
     width: 80%;
     }
   }
@@ -791,6 +869,7 @@ h1, h2, h3, h4, h5, p, li, a {
   .see-more-projects {
     display: flex;
     justify-content: flex-end;
+    margin: 16px 0;
   }
 
   .see-more-projects p {
@@ -866,6 +945,8 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 768px) {
    .cta-card {
     flex-wrap: wrap;
+    padding: 16px;
+    justify-content: center;
     }
   }
 
@@ -877,6 +958,12 @@ h1, h2, h3, h4, h5, p, li, a {
 
   .cta-image img {
     height: 100px;
+  }
+
+  @media (max-width: 576px) {
+    .cta-title, .cta-btn {
+      margin: 16px 0;
+    }
   }
 
 /* Contact Section */
@@ -914,7 +1001,7 @@ h1, h2, h3, h4, h5, p, li, a {
     padding: 8px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
    .contact-mail {
     font-size: 24px;
     }
@@ -950,6 +1037,12 @@ h1, h2, h3, h4, h5, p, li, a {
     transform: scale(1.1);
   }
 
+  @media (max-width: 576px) {
+   .calendly-inline-widget {
+      display: none;
+    }
+  }
+
 /* Components */
 
   /*Small Button*/
@@ -981,7 +1074,7 @@ h1, h2, h3, h4, h5, p, li, a {
       justify-content: center;
       align-items: center;
       border-radius: 16px;
-      width: 250px;
+      width: 200px;
     }
 
     .btn-black a {
@@ -1003,7 +1096,7 @@ h1, h2, h3, h4, h5, p, li, a {
       justify-content: center;
       align-items: center;
       border-radius: 16px;
-      width: 250px;
+      width: 200px;
     }
 
     @media (max-width: 768px) {
