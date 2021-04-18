@@ -403,6 +403,30 @@ h1, h2, h3, h4, h5, p, li, a {
     }
   }
 
+  .navbar-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+  }
+
+  @media (min-width: 576px) {
+    .navbar-mobile {
+      display: none;
+    }
+  }
+
+  .navbar-mobile-links {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  .navbar-mobile i {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+
 /*Footer*/
 
   .footer {
