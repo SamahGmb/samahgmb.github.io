@@ -93,11 +93,11 @@
               </div>
             </div>
             <div class="banner-img">
-              <picture>
-                <source media="(max-width: 576px)" srcset="images/photo-de-profile-samah-300.jpg" width="300" height="300">
-                <source media="(min-width: 577px)" srcset="images/photo-de-profile-samah-658.jpg" width="658" height="658">
-                <img src="images/photo-de-profile-samah-800.jpg" alt="Photo de profile de samah - Développeur Web Freelance" width="800" height="800">
-              </picture>
+              <img srcset="images/photo-de-profile-samah-300.jpg 300w,
+                           images/photo-de-profile-samah-658.jpg 658w"
+                   sizes="(max-width: 576px) 300px,
+                          (min-width: 577px) 658px"
+                   src="images/photo-de-profile-samah-800.jpg" alt="Photo de profile de samah - Développeur Web Freelance">
             </div>
           </div>
         </div>
