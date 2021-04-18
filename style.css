@@ -369,10 +369,6 @@ h1, h2, h3, h4, h5, p, li, a {
     align-items: center;
   }
 
-/*  .navbar-logo img {
-    height: 150px;
-  }*/
-
   .navbar-slogan ul {
     display: flex;
     flex-direction: column;
@@ -455,10 +451,6 @@ h1, h2, h3, h4, h5, p, li, a {
     }
   }
 
- /* .footer-logo img {
-    height: 150px;
-  }*/
-
   .third-footer p {
     font-size: 12px;
     text-align: center;
@@ -482,7 +474,7 @@ h1, h2, h3, h4, h5, p, li, a {
     margin: 16px auto;
   }
 
-  .footer i {
+  .third-footer i {
     color: red;
   }
 
@@ -1161,6 +1153,7 @@ h1, h2, h3, h4, h5, p, li, a {
   .message p {
     font-size: 14px;
     font-weight: bold;
+    margin: 16px;
   }
 
   .message i {
