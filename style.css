@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, p, li, a {
     align-items: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
    .second-footer, .third-footer {
     flex-direction: column;
     }
@@ -487,7 +487,7 @@ h1, h2, h3, h4, h5, p, li, a {
     text-align: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .second-footer p {
       text-align: center;
       padding: 0 32px;
@@ -653,7 +653,7 @@ h1, h2, h3, h4, h5, p, li, a {
  }
 
  .service-card {
-   width: 90%;
+   width: 100%;
    border-radius: 16px;
    margin: 32px 0;
    padding: 8px;
@@ -1240,7 +1240,7 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   .project-description h4 {
-    padding: 16px;
+    padding: 8px;
     margin: 8px 0;
   }
 
