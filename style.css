@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, p, li, a {
 
   @media (max-width: 1200px) {
    h1 {
-    font-size: 40px;
+    font-size: 56px;
     }
   }
 
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, p, li, a {
 
   @media (max-width: 1200px) {
    h3 {
-    font-size: 18px;
+    font-size: 20px;
     }
   }
 
@@ -269,12 +269,6 @@ h1, h2, h3, h4, h5, p, li, a {
     text-align: justify;
   }
 
-  @media (max-width: 1200px) {
-   p {
-    font-size: 12px;
-    }
-  }
-
   p::first-letter {
     text-transform: capitalize;
   }
@@ -287,14 +281,14 @@ h1, h2, h3, h4, h5, p, li, a {
     display: inline-block;
     padding: 0 16px;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: justify;
   }
 
   a {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -382,7 +376,7 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   .navbar-slogan li {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .navbar-contact {
@@ -393,7 +387,7 @@ h1, h2, h3, h4, h5, p, li, a {
   .navbar-contact p {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .navbar-menu a:hover {
@@ -412,10 +406,10 @@ h1, h2, h3, h4, h5, p, li, a {
 
   .navbar-mobile {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 40px;
+    margin: 16px;
   }
 
   @media (min-width: 1201px) {
@@ -424,14 +418,22 @@ h1, h2, h3, h4, h5, p, li, a {
     }
   }
 
+  .navbar-mobile img {
+    padding-bottom: 16px;
+  }
+
   .navbar-mobile-links {
     display: flex;
     margin-bottom: 24px;
+    padding-top: 16px;
   }
 
   .navbar-mobile i {
     font-size: 24px;
-    margin-right: 8px;
+  }
+
+  .navbar-mobile li {
+    padding: 0;
   }
 
 /*Footer*/
@@ -440,6 +442,7 @@ h1, h2, h3, h4, h5, p, li, a {
     display: flex;
     flex-direction: column;
     min-height: 100px;
+    margin: 0 16px;
   }
 
   .first-footer {
@@ -483,7 +486,7 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   .second-footer p, .third-footer p {
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
   }
 
@@ -646,11 +649,11 @@ h1, h2, h3, h4, h5, p, li, a {
    margin: 40px 0;
  }
 
- @media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
    .services-cards {
      margin: 8px;
    }
- }
+ }*/
 
  .service-card {
    width: 100%;
