@@ -966,17 +966,17 @@ h1, h2, h3, h4, h5, p, li, a {
     }
   }
 
-  .see-more-projects {
+  .see-more {
     display: flex;
     justify-content: flex-end;
     margin: 16px 0;
   }
 
-  .see-more-projects p {
+  .see-more p {
     font-weight: bold;
   }
 
-  .see-more-projects a:hover {
+  .see-more a:hover {
     text-decoration: underline;
   }
 
