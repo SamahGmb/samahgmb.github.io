@@ -1233,6 +1233,17 @@ h1, h2, h3, h4, h5, p, li, a {
       font-size: 24px;
     }
 
+    /*Share Buttons*/
+
+    .share-section {
+      display: flex;
+      justify-content: center;
+    }
+
+    .share-btn {
+      padding: 8px 24px;
+    }
+
 /* Portfolio Section*/
 
   .message p {
