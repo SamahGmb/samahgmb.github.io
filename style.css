@@ -897,7 +897,7 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   .project-card {
-    height: 550px;
+    height: 650px;
     width: 550px;
     border-radius: 16px;
     margin: 32px 0;
@@ -909,21 +909,21 @@ h1, h2, h3, h4, h5, p, li, a {
   @media (max-width: 768px) {
    .project-card {
     width: 280px;
-    height: 280px;
+    height: 480px;
     }
   }
 
   @media (max-width: 992px) and (min-width: 768px) {
    .project-card {
     width: 300px;
-    height: 300px;
+    height: 500px;
     }
   }
 
   @media (max-width: 1200px) and (min-width: 992px) {
    .project-card {
     width: 450px;
-    height: 450px;
+    height: 650px;
     }
   }
 
@@ -955,6 +955,15 @@ h1, h2, h3, h4, h5, p, li, a {
     }
   }
 
+  .project-tasks {
+    padding: 16px;
+  }
+
+  .project-tasks p {
+    font-size: 14px;
+    text-align: center;
+  }
+
   .project-img img {
     width: 80%;
     border-radius: 0 16px 0 16px;
@@ -964,6 +973,11 @@ h1, h2, h3, h4, h5, p, li, a {
    .project-img img {
     width: 80%;
     }
+  }
+
+  .project-img img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
   }
 
   .see-more {
