@@ -484,7 +484,7 @@ h1, h2, h3, h4, h5, p, li, a {
     }
   }
 
-  .second-footer p, .third-footer p {
+  .second-footer p, .third-footer p, .fourth-footer a {
     font-size: 13px;
     text-align: center;
   }
@@ -509,6 +509,17 @@ h1, h2, h3, h4, h5, p, li, a {
 
   .third-footer i {
     color: red;
+  }
+
+  .fourth-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+  }
+
+  .fourth-footer a {
+    text-transform: capitalize;
   }
 
 /*Banner*/
@@ -1309,4 +1320,20 @@ h1, h2, h3, h4, h5, p, li, a {
 
   .back-to-home-page a:hover {
     text-decoration: underline;
+  }
+
+/*Sitemap Section*/
+
+  .sitemap-section ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sitemap-section li {
+    padding: 8px 0;
+  }
+
+  .sitemap-section a {
+    text-transform: capitalize;
+    line-height: 1.5;
   }
