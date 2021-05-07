@@ -333,15 +333,11 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   .card-green-bg {
-    background: linear-gradient(rgba(106, 250, 0, 0.05), rgba(106, 250, 0, 0.1), rgba(106, 250, 0, 0.15), rgba(106, 250, 0, 0.2), rgba(106, 250, 0, 0.25), rgba(106, 250, 0, 0.3), rgb(255, 255, 255));
+    background: linear-gradient(rgba(106, 250, 0, 0.05), rgba(106, 250, 0, 0.1), rgba(106, 250, 0, 0.15), rgba(106, 250, 0, 0.2), rgba(106, 250, 0, 0.25), rgba(106, 250, 0, 0.3), rgba(106, 250, 0, 0.4));
   }
 
   .card-pink-bg {
-    background: linear-gradient(rgba(146, 190, 224, 0.05), rgba(146, 190, 224, 0.1), rgba(146, 190, 224, 0.15), rgba(146, 190, 224, 0.2), rgba(146, 190, 224, 0.25),rgba(146, 190, 224, 0.3), rgb(255, 255, 255));
-  }
-
-  .card-dark-blue-bg {
-    background: linear-gradient(rgba(0, 37, 74, 0.03), rgba(0, 37, 74, 0.05), rgba(0, 37, 74, 0.10), rgba(0, 37, 74, 0.15), rgba(0, 37, 74, 0.18), rgb(255, 255, 255));
+    background: linear-gradient(rgba(146, 190, 224, 0.05), rgba(146, 190, 224, 0.1), rgba(146, 190, 224, 0.15), rgba(146, 190, 224, 0.2), rgba(146, 190, 224, 0.25),rgba(146, 190, 224, 0.3), rgba(146, 190, 224, 0.4));
   }
 
   .service-bg-beige {
@@ -946,7 +942,7 @@ h1, h2, h3, h4, h5, p, li, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 16px;
   }
 
   @media (max-width: 1200px) {
@@ -1293,12 +1289,12 @@ h1, h2, h3, h4, h5, p, li, a {
   }
 
   .project-description h4 {
-    padding: 32px;
+    padding: 8px;
     margin: 8px 0;
   }
 
   .project-description p {
-    margin: 16px 0;
+    margin: 8px 0;
   }
 
   .project-description ul {
