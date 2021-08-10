@@ -363,6 +363,7 @@ h1, h2, h3, h4, h5, p, li, a {
     justify-content: space-between;
     align-items: center;
     margin:16px;
+    padding:16px 0;
   }
 
   .navbar-logo-slogan {
